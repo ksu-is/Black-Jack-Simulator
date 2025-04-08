@@ -1,13 +1,13 @@
 Sprint 1 Project Checklist
 GitHub Setup
 
- I have established a GitHub account.
- I have joined the class organization on GitHub (KSU-IS).
- I am associated with ownership of a code repository within the KSU-IS organization.
+ [x] We have established a GitHub account.
+ [x] We have joined the class organization on GitHub (KSU-IS).
+ [x] We are both associated with ownership of a code repository within the KSU-IS organization.
 Repository Contributions
 
- I have edited the README.md file in my assigned repository.
- I have committed the changes to the repository.
+ [x] we have edited the README.md file in the assigned repository.
+ [x] we have committed the changes to the repository.
 Codebase Exploration
 
  I have explored at least one existing Python codebase related to my project.
