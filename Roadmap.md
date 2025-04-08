@@ -9,6 +9,6 @@
 - [x] We have committed the changes to the repository.
 
 ## Codebase Exploration
-- [x] I have explored at least one existing Python codebase related to my project.  
-- [x] I have read through the code to understand how it works.  
-- [x] I have attempted to run the code on my own system.
+- [x] We have explored at least one existing Python codebase related to my project.  
+- [] We have read through the code to understand how it works.  
+- [] We have attempted to run the code on my own system.
