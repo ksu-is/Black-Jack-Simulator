@@ -13,7 +13,7 @@
 - [x] We have read through the code to understand how it works.  
 - [x] We have attempted to run the code on my own system.
 
-## Sprint 2 Checklist
+## Sprint 2 Project Checklist
 ## Begin rough draft of code
 - [x] First update of code
 - [x] Second update of code
