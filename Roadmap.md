@@ -21,3 +21,6 @@
 - [x] seventh update of code
 - [x] eigth update of code
 - [x] ninth update of code
+- [x] tenth update of code
+- [x] eleventh update of code
+- [x] twelfth update of code
