@@ -57,4 +57,6 @@ if player_score == 0 or computer_score == 0 or player_score > 21:
             else:
                 game_over = True
 
+    while calculate_score(computer_cards) < 17:
+        computer_cards.append(deal_card())
 
