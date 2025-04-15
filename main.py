@@ -8,5 +8,5 @@ def calculate_score(cards):
     aces = cards.count(11)
 
     while score > 21 and aces:
-        score -= 10  # Change one Ace from 11 to 1
+        score -= 10 
         aces -= 1
