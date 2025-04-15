@@ -10,3 +10,10 @@ def calculate_score(cards):
     while score > 21 and aces:
         score -= 10 
         aces -= 1
+ if score == 21 and len(cards) == 2:
+        return 0
+    return score
+
+def compare(player_score, computer_score):
+    if player_score == computer_score:
+        return "Draw"
