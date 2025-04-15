@@ -43,4 +43,9 @@ def play_game():
     computer_cards = [deal_card(), deal_card()]
 
     game_over = False
+ 
+while not game_over:
+        player_score = calculate_score(player_cards)
+        computer_score = calculate_score(computer_cards)
+        show_cards(player_cards, player_score, computer_cards)
 
