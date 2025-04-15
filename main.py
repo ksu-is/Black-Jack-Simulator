@@ -65,4 +65,12 @@ player_score = calculate_score(player_cards)
     show_cards(player_cards, player_score, computer_cards, reveal_all=True)
     print(compare(player_score, computer_score))
 
+def main():
+    while True:
+        play = input("\nDo you want to play a game of Blackjack? Type 'y' or 'n': ")
+        if play.lower() != 'y':
+            print("Thanks for playing!")
+            break
+        play_game()
 
+main()
