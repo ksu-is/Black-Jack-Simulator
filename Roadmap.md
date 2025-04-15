@@ -12,6 +12,8 @@
 - [x] We have explored at least one existing Python codebase related to the project.  
 - [x] We have read through the code to understand how it works.  
 - [x] We have attempted to run the code on my own system.
+
+## Sprint 2 Checklist
 ## Begin rough draft of code
 - [x] First update of code
 - [x] Second update of code
