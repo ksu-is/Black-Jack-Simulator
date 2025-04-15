@@ -18,6 +18,6 @@
 - [x] Third update of code
 - [x] Fourth update of code
 - [x] sixth update of code
-- [ ] seventh update of code
-- [ ] eigth update of code
-- [ ] ninth update of code
+- [x] seventh update of code
+- [x] eigth update of code
+- [x] ninth update of code
