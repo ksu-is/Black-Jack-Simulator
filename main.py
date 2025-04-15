@@ -17,7 +17,7 @@ def calculate_score(cards):
 def compare(player_score, computer_score):
     if player_score == computer_score:
         return "Draw"
-elif computer_score == 0:
+    elif computer_score == 0:
         return "Lose, opponent has Blackjack!"
     elif player_score == 0:
         return "Win with a Blackjack!"
@@ -29,3 +29,10 @@ elif computer_score == 0:
         return "You win!"
     else:
         return "You lose!"
+
+def show_cards(player_cards, player_score, computer_cards, reveal_all=False):
+    print("\nYour cards:", player_cards, "Current score:", player_score)
+    if reveal_all:
+        print("Computer's cards:", computer_cards, "Score:", calculate_score(computer_cards))
+    else:
+        print("Computer's first card:", computer_cards[0])
