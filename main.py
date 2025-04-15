@@ -59,4 +59,10 @@ if player_score == 0 or computer_score == 0 or player_score > 21:
 
     while calculate_score(computer_cards) < 17:
         computer_cards.append(deal_card())
+player_score = calculate_score(player_cards)
+    computer_score = calculate_score(computer_cards)
+
+    show_cards(player_cards, player_score, computer_cards, reveal_all=True)
+    print(compare(player_score, computer_score))
+
 
