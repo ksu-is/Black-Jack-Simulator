@@ -36,3 +36,11 @@ def show_cards(player_cards, player_score, computer_cards, reveal_all=False):
         print("Computer's cards:", computer_cards, "Score:", calculate_score(computer_cards))
     else:
         print("Computer's first card:", computer_cards[0])
+def play_game():
+    print("\nWelcome to Blackjack!")
+
+    player_cards = [deal_card(), deal_card()]
+    computer_cards = [deal_card(), deal_card()]
+
+    game_over = False
+
