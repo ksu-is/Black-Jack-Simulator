@@ -10,5 +10,14 @@
 
 ## Codebase Exploration
 - [x] We have explored at least one existing Python codebase related to the project.  
-- [ ] We have read through the code to understand how it works.  
-- [ ] We have attempted to run the code on my own system.
+- [x] We have read through the code to understand how it works.  
+- [x] We have attempted to run the code on my own system.
+## Begin rough draft of code
+- [x] First update of code
+- [x] Second update of code
+- [x] Third update of code
+- [x] Fourth update of code
+- [x] sixth update of code
+- [ ] seventh update of code
+- [ ] eigth update of code
+- [ ] ninth update of code
