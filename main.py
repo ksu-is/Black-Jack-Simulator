@@ -33,6 +33,9 @@ def compare(player_score, dealer_score):
     else:
         return "You lose!"
 
+def get_dealer_total(cards):
+    return calculate_score(cards)
+
 # ---------- GUI App ----------
 
 class BlackjackApp:
@@ -53,12 +56,11 @@ class BlackjackApp:
         self.dealer_label.pack()
 
         # Buttons
-        self.hit_button = tk.Button(root, text="Hit", command=self.hit)
-        self.hit_button.pack(side="left", padx=10, pady=20)
+         self.hit_button = tk.Button(root, text="Hit", font=("Helvetica", 14), width=12, height=2, command=self.hit)
+        self.hit_button.pack(side="left", padx=20, pady=20)
 
-        self.stand_button = tk.Button(root, text="Stand", command=self.stand)
-        self.stand_button.pack(side="right", padx=10, pady=20)
-
+        self.stand_button = tk.Button(root, text="Stand", font=("Helvetica", 14), width=12, height=2, command=self.stand)
+        self.stand_button.pack(side="right", padx=20, pady=20)
         self.start_new_game()
 
     def reset_game(self):
