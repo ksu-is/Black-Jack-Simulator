@@ -76,9 +76,19 @@ class BlackjackApp:
 
     def update_labels(self, reveal_dealer=False):
         player_score = calculate_score(self.player_cards)
-        dealer_display = self.dealer_cards if reveal_dealer else [self.dealer_cards[0], "?"]
-        self.player_label.config(text=f"Your cards: {self.player_cards} | Score: {player_score}")
-        self.dealer_label.config(text=f"Dealer's cards: {dealer_display}")
+        if reveal_dealer:
+            dealer_score = get_dealer_total(self.dealer_cards)
+            dealer_display = self.dealer_cards
+            self.dealer_label.config(
+                text=f"Dealer's cards: {dealer_display} | Score: {dealer_score}"
+            )
+        else:
+            dealer_display = [self.dealer_cards[0], "?"]
+            self.dealer_label.config(text=f"Dealer's cards: {dealer_display}")
+
+        self.player_label.config(
+            text=f"Your cards: {self.player_cards} | Score: {player_score}"
+        )
 
     def hit(self):
         if self.game_over:
