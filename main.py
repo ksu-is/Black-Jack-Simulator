@@ -46,7 +46,7 @@ class BlackjackApp:
         self.reset_game()
 
         # Labels
-         self.info_label = tk.Label(root, text="Welcome to Blackjack!", font=("Helvetica", 16))
+        self.info_label = tk.Label(root, text="Welcome to Blackjack!", font=("Helvetica", 16))
         self.info_label.pack(pady=10)
 
         self.player_label = tk.Label(root, text="", font=("Helvetica", 14))
@@ -56,7 +56,7 @@ class BlackjackApp:
         self.dealer_label.pack(pady=5)
 
         # Buttons
-         self.hit_button = tk.Button(root, text="Hit", font=("Helvetica", 14), width=12, height=2, command=self.hit)
+        self.hit_button = tk.Button(root, text="Hit", font=("Helvetica", 14), width=12, height=2, command=self.hit)
         self.hit_button.pack(side="left", padx=20, pady=20)
 
         self.stand_button = tk.Button(root, text="Stand", font=("Helvetica", 14), width=12, height=2, command=self.stand)
